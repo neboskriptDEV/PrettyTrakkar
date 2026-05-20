@@ -28,7 +28,7 @@ namespace PrettyTrakkar
             string configPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "config.txt");
             if (File.Exists(configPath))
             {
-                //you well be able to change 
+                //you well be able to change this in future updates
                 whInstance.Name = "gorilla";
                 whInstance.AvatarURL = "https://github.com/neboskriptDEV/PrettyTrakkar/blob/main/pticon.png?raw=true";
 
